@@ -1,2 +1,2 @@
-export { default as BiMap } from "./BiMap";
-export { default as WeakBiMap } from "./WeakBiMap";
+export { default as BiMap } from "./BiMap.js";
+export { default as WeakBiMap } from "./WeakBiMap.js";

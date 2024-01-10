@@ -1,4 +1,4 @@
-import ReverseMap from "./ReverseMap";
+import type ReverseMap from "./ReverseMap.js";
 
 class WeakBiMap<K extends object, V extends object>
   implements WeakMap<K, V>, ReverseMap<K, V>

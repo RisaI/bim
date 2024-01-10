@@ -1,4 +1,4 @@
-import ReverseMap from "./ReverseMap";
+import type ReverseMap from "./ReverseMap.js";
 
 class BiMap<K, V> implements Map<K, V>, ReverseMap<K, V> {
   readonly #left: Map<K, V>;
