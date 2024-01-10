@@ -1,9 +1,13 @@
 {
   "name": "@risai/bim",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A bidirectional map based on the ES6 Map & WeakMap objects",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
     "dist"
   ],
