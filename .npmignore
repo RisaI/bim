@@ -1,0 +1,7 @@
+.github/
+src/
+test/
+.eslint*
+jest.config.js
+tsconfig.json
+pnpm-lock.yaml
