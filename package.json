@@ -1,5 +1,6 @@
 {
   "name": "bim",
+  "scope": "@risai/bim",
   "version": "1.4.0",
   "description": "A bidirectional map based on the ES6 Map & WeakMap objects",
   "main": "dist/index.js",
@@ -22,6 +23,9 @@
     "weakmap"
   ],
   "author": "Anton Veselyev <inker.gh@gmail.com> (https://github.com/inker)",
+  "contributors": [
+    "Richard Ivánek <richard@ivanek.dev> (https://github.com/RisaI)"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.11",
