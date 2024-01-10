@@ -1,6 +1,5 @@
 {
-  "name": "bim",
-  "scope": "@risai/bim",
+  "name": "@risai/bim",
   "version": "1.4.0",
   "description": "A bidirectional map based on the ES6 Map & WeakMap objects",
   "main": "dist/index.js",
