@@ -5,6 +5,9 @@
   "description": "A bidirectional map based on the ES6 Map & WeakMap objects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest --no-cache",
     "lint": "eslint './src/**/*.ts'",
